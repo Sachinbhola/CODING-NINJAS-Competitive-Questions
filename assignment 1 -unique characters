@@ -1,0 +1,21 @@
+This program hepl us us set to avoid duplicate valuse
+
+#include<bits/stdc++.h>
+using namespace std;
+
+string uniqueChar(char *s){
+    set<char> set;
+    int x=strlen(s);
+    string st="";
+    for(int i=0;i<x;i++)
+    {
+        int y=set.size();
+        set.insert(s[i]);
+        int z=set.size();
+        if(z>y)
+        {
+            st=st+s[i];
+        }
+    }
+    return st;
+}
