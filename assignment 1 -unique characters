@@ -1,4 +1,4 @@
-This program help us us set to avoid duplicate valuse
+This program help us avoid duplicate values using set's property 
 
 #include<bits/stdc++.h>
 using namespace std;
